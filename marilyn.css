@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(image/marilyn2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.container {
+    width: 400px;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.par{
+    display: none;
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+    padding: 0 30px;
+}
+
+  .btn {
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+      padding: 5px 25px;
+      margin-bottom: 70px;
+      font-size: 16px;
+  }
+
+
+  @media all and (max-width: 855px) {
+    .par{
+        margin-top: 180px;
+        font-size: 14px;
+        padding: 0 40px;
+    }
+
+    .btn {
+        margin-bottom: 30px;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+
+    .btn {
+        margin-bottom: 50px;
+    }
+
+    .par{
+        margin-top: 500px;
+
+    }
+
+  }
+
+  @media all and (max-width: 330px) {
+
+    .btn {
+        margin-bottom: 30px;
+    }
+
+    .par{
+        margin-top: 380px;
+        font-size: 14px;
+        padding: 0 40px;
+    }
+
+  }
