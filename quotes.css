@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1513475889489-6842a6634df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.container {
+    height: 500px;
+    width: 600px;
+    overflow: hidden;
+    padding: 100px 30px;
+    flex-wrap:wrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+  .quote-area i{
+    font-size: 16px;
+  }
+
+.to-right {
+      display: flex;
+      justify-content: end;
+  }
+
+  .button {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  }
+
+  .btn {
+      background-color: transparent;
+      border: 1px solid black;
+      padding: 5px 15px;
+      margin-top: 15px;
+      font-size: 16px;
+  }
+
+.line {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+@media all and (max-width: 855px) {
+    .container {
+        padding: 40px 60px;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+      .par {
+          font-size: 14px;
+      }
+
+      .button {
+        margin-top: 20px;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .container {
+        padding: 40px 30px;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .quote-area i{
+        font-size: 14px;
+      }
+      .par {
+          font-size: 14px;
+      }
+      .button {
+        margin-top: 30px;
+    }
+  }
